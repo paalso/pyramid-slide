@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: palevioletred;
+    text-align: center;
+    vertical-align: center;
+}
+
+.main-content {
+    width: 900px;
+    margin: 50px auto;
+    border: solid 2px darkmagenta;
+}
+
+.pyramid-setup {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: darkgray;
+}
+
+.setup-item {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.pyramid-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+}
