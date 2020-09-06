@@ -11,6 +11,7 @@ header {
     background-color: palevioletred;
     text-align: center;
     vertical-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .main-content {
@@ -23,7 +24,24 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: darkgray;
+    font-size: 20px;
 }
+
+.pyramid-setup select {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    height: 5px;
+    background: lightgray; 
+    border-color: grey;
+    color: lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+} 
 
 .setup-item {
     display: inline-block;
@@ -31,8 +49,23 @@ header {
     text-align: center;
 }
 
-.pyramid-container {
+#height-value {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pyramid-area {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: lightgray;
+    text-align: center;
+}
+
+.pyramid-container {
+    display: inline-block;
+    text-align: left;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    color: darkorchid;
+    font-family: monospace;
 }
